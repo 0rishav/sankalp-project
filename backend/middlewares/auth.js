@@ -2,7 +2,7 @@ import User from "../models/userModal.js";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import { CatchAsyncError } from "./CatchAsyncError.js";
-import ErrorHandler from "../utils/errorHandler.js";
+import ErrorHandler from "../utils/ErrorHandler.js";
 
 dotenv.config();
 
