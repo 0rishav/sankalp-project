@@ -2,7 +2,7 @@ import { CatchAsyncError } from "../middlewares/CatchAsyncError.js";
 import ProductDescription from "../models/productDescriptionModal.js";
 import Product from "../models/productModal.js";
 import cloudinary from "../utils/cloudinaryConfig.js";
-import ErrorHandler from "../utils/errorHandler.js";
+import ErrorHandler from "../utils/ErrorHandler.js";
 import fs from "fs/promises";
 
 export const createProductDescription = CatchAsyncError(
